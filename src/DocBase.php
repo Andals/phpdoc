@@ -9,9 +9,11 @@
 
 namespace Phpdoc;
 
+/**
+    * Doc abstract base
+ */
 abstract class DocBase
 {/*{{{*/
-
     /**
         * Get name
         *

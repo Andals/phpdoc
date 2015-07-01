@@ -9,10 +9,13 @@
 
 namespace Phpdoc;
 
+/**
+    * Demo for php doc
+ */
 class DocDemo extends \Phpdoc\DocBase implements \Phpdoc\DocInterface
 {/*{{{*/
     /**
-     * {@inheritdoc}
+        * {@inheritdoc}
      */
     public function setName($name)
     {/*{{{*/

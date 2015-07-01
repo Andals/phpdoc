@@ -9,6 +9,9 @@
 
 namespace Phpdoc;
 
+/**
+    * Doc interface
+ */
 interface DocInterface
 {/*{{{*/
 
