@@ -7,11 +7,17 @@
 * @date 2015-06-29
  */
 
-namespace Demo;
+namespace Phpdoc;
 
 abstract class DocBase
 {/*{{{*/
-    abstract protected function getName();
+
+    /**
+        * Get name
+        *
+        * @return string
+     */
+    abstract public function getName();
 
     protected $name = '';
 

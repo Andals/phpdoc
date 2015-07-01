@@ -1,0 +1,8 @@
+phpdoc=$PWD {
+ README.md
+ src=src {
+  DocBase.php
+  DocDemo.php
+  DocInterface.php
+ }
+}
